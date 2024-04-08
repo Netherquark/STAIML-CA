@@ -1,0 +1,23 @@
+Question 2                            Python-based programming
+   (a)       Write a Python class using OOPs concept that returns the moving average of
+             a time-series sequence. The class instance should accept moving average
+             window as the only input argument.
+   (b)       (i) Calculate the mean, median, mode, standard deviation, and range of a
+             given dataset using Python libraries such as NumPy and Pandas.
+             (ii) Generate summary statistics for a dataset, including count, mean,
+             standard deviation, minimum, 25th percentile, median, 75th percentile, and
+             maximum values.
+
+   (c)       (i) Fit a linear regression model to predict a dependent variable based on one
+             or more independent variables using libraries like scikit-learn.
+             (ii) Interpret the coefficients of the linear regression model.
+             (iii) Evaluate the goodness of fit of the model using metrics such as R-
+             squared, adjusted R-squared, and root mean squared error (RMSE).
+             Use the model to make predictions on new data points.
+
+   (d)       (i) Create a histogram to visualize the distribution of a numerical variable.
+             (ii) Plot a scatter plot to explore the relationship between two continuous
+             variables.
+             (iii) Generate a box plot to compare the distribution of a numerical variable
+             across different categories.
+             (iv) Create a bar chart to visualize the frequency of categorical variables.

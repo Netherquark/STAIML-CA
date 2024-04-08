@@ -1,0 +1,21 @@
+Question 1                                  R-based programming
+   (a)       Consider a time-series dataset from link and create a R function that returns    CO 1
+             the following
+             (a) Mean
+             (b) Median
+             (c) Std Deviation
+             (d) Variance
+             (e) Skewness and Kurtosis
+             (f) Histogram
+             (g) Scatter plot
+             (h) Q1, Q2, Q3, and Q4
+             (i) Pearson’s Correlation Coefficient
+             (j) Box plot
+   (b)       Convert the above calculated results in form a dataframe for all possible        CO 2
+             numeric attributes of the dataset thereof.
+   (c)       Demonstrate and explain the logical reasoning behind the working of for-loop
+             and while loop in R with a suitable example.
+   (d)       Consider a time-series dataset from link and do as directed
+             (i) Calculate the correlation coefficient between two continuous variables.
+             (ii) Determine whether the correlation is statistically significant.
+             (iii) Visualize the relationship between variables using a scatter plot.
