@@ -8,7 +8,6 @@ analyze_correlation <- function(dataset) {
   p_value <- 2 * pt(-abs(t_value), df = degrees_freedom)
   is_significant <- p_value < 0.05
   
-  # Return results
   analysis_results <- list(
     correlation_coefficient = correlation_coefficient,
     is_significant = is_significant,
@@ -17,18 +16,13 @@ analyze_correlation <- function(dataset) {
   return(analysis_results)
 }
 
-# Read data from file or use your own dataset
 time_series_data <- read.csv("/home/netherquark/Soham/Soham/Studies/Bachelors/SIT B.Tech (AI-ML)/first_year/Sem-II/STAIML/STAIML-CA/R/beijing_multi_site_air_quality_data.csv", header = TRUE, stringsAsFactors = FALSE)
 
-# Call the analysis function
 analysis_results <- analyze_correlation(time_series_data)
 print(analysis_results)
 
-# Function to visualize data
-visualize_data <- function(dataset) {  
-  # Create scatter plot
+visualize_data <- function(dataset) {
   plot(dataset$Open, dataset$High, main = "Scatter Plot of Open vs High", xlab = "Open", ylab = "High", col = "blue")
 }
 
-# Call the visualization function
 visualize_data(time_series_data)
